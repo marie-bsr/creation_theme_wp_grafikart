@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+ //desactive le fait que le cron soit lancé par un visiteur (ce qui peut entrainer delai de chargement de page )
+//define('DISABLE_WP_CRON', true);
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpressgrafikart' );
